@@ -27,7 +27,8 @@
 </template>
 
 <script>
-
+import { db } from '../../config'
+var booksRef = db.ref('books');
 
 export default {
   data() {

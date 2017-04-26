@@ -1,12 +1,13 @@
 <template>
   <div>
+    <add-book></add-book>
     <list-book></list-book>
   </div>
 </template>
 
 <script>
-import List from './books/List.vue';
-import Add from './books/Add.vue';
+import List from './components/books/List.vue';
+import Add from './components/books/Add.vue';
 
 export default {
   components: {
